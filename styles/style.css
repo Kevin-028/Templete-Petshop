@@ -174,6 +174,10 @@ li {
   font-weight: 400;
 }
 
+.header .logo img {
+  height: 80px;
+}
+
 .header nav {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
@@ -352,7 +356,7 @@ li {
   grid-area: banner;
   grid-column: 1 /-1;
   height: 87vh;
-  background: url(../img/banner/Banner1.jpg) round;
+  background: url(../img/banner/banner1.png) round;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 4fr 1fr;
@@ -421,6 +425,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #0b1143;
 }
 
 #sobre .sobre-figurinha {
@@ -487,7 +492,7 @@ li {
 }
 
 #especialidade {
-  background-color: black;
+  background-color: #b1e4ff;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: -ms-grid;
   display: grid;
@@ -508,7 +513,7 @@ li {
 
 #especialidade .titulo {
   font-family: "Merienda", cursive !important;
-  color: white;
+  color: #0b1143;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -523,7 +528,7 @@ li {
   width: 70%;
   font-family: "Merienda", cursive !important;
   text-align: center;
-  color: white;
+  color: #0b1143;
 }
 
 #especialidade .secao1 h2 {
@@ -553,7 +558,7 @@ li {
 }
 
 #especialidade .secao2 img {
-  width: 90%;
+  height: 97.5vh;
 }
 
 #especialidade .secao3 {
@@ -564,7 +569,7 @@ li {
   width: 70%;
   font-family: "Merienda", cursive !important;
   text-align: center;
-  color: white;
+  color: #0b1143;
 }
 
 #especialidade .secao3 h2 {
@@ -876,6 +881,7 @@ li {
   }
   #especialidade .secao5 div div.lazy-img img {
     width: 90%;
+    min-width: 340px;
   }
   #especialidade .secao5 div div.lazy-img button {
     color: white;

@@ -41,6 +41,10 @@ li {
   padding: 10px;
 }
 
+body {
+  background: url(../img/sobre/Fundo1.png);
+}
+
 @-webkit-keyframes seta {
   from {
     right: 30px;
@@ -175,7 +179,7 @@ li {
 }
 
 .header .logo img {
-  height: 80px;
+  height: 85px;
 }
 
 .header nav {
@@ -356,7 +360,7 @@ li {
   grid-area: banner;
   grid-column: 1 /-1;
   height: 87vh;
-  background: url(../img/banner/banner1.png) round;
+  background: url(../img/banner/fondoo.jpeg) round;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 4fr 1fr;
@@ -391,17 +395,15 @@ li {
   margin-bottom: none;
   width: 100%;
   height: 10%;
-  max-width: 250px;
+  max-width: 350px;
   font-size: 1.3em;
-  background: -webkit-gradient(linear, left top, left bottom, from(#F57E0B), to(#ED3634));
-  background: linear-gradient(180deg, #F57E0B, #ED3634);
+  background: #6ebaae;
   border-radius: 5px;
   border: none;
 }
 
 #banner div button:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#F57E0B), to(#ED3634));
-  background: linear-gradient(0deg, #F57E0B, #ED3634);
+  background: #579d92;
   color: white;
 }
 
@@ -425,7 +427,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #0b1143;
+  color: #010f8c;
 }
 
 #sobre .sobre-figurinha {
@@ -457,17 +459,15 @@ li {
   margin-bottom: 10%;
   width: 100%;
   height: 10%;
-  max-width: 250px;
+  max-width: 350px;
   font-size: 1.3em;
-  background: -webkit-gradient(linear, left top, left bottom, from(#F57E0B), to(#ED3634));
-  background: linear-gradient(180deg, #F57E0B, #ED3634);
+  background: #6ebaae;
   border-radius: 5px;
   border: none;
 }
 
 #sobre .sobre-texto button:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#F57E0B), to(#ED3634));
-  background: linear-gradient(0deg, #F57E0B, #ED3634);
+  background: #579d92;
   color: white;
 }
 
@@ -492,7 +492,6 @@ li {
 }
 
 #especialidade {
-  background-color: #b1e4ff;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: -ms-grid;
   display: grid;
@@ -508,16 +507,18 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 3%;
+  padding-top: 0%;
 }
 
 #especialidade .titulo {
   font-family: "Merienda", cursive !important;
-  color: #0b1143;
+  color: #010f8c;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: titulo;
+  width: 100%;
+  text-align: center;
 }
 
 #especialidade .secao1 {
@@ -558,7 +559,7 @@ li {
 }
 
 #especialidade .secao2 img {
-  height: 97.5vh;
+  height: 76vh;
 }
 
 #especialidade .secao3 {
@@ -618,7 +619,7 @@ li {
 }
 
 #especialidade .secao5 div div.lazy-img img {
-  width: 70%;
+  width: 45vh;
 }
 
 #especialidade .secao5 div div.lazy-img button {
@@ -628,15 +629,15 @@ li {
   margin-bottom: 0px;
   width: 100%;
   height: 10%;
-  max-width: 250px;
+  max-width: 350px;
   font-size: 1.3em;
-  background: red;
+  background: #6ebaae;
   border-radius: 5px;
   border: none;
 }
 
 #especialidade .secao5 div div.lazy-img button:hover {
-  background: tomato;
+  background: #579d92;
   color: white;
 }
 
@@ -648,8 +649,7 @@ li {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(#101010), to(#101010));
-  background: linear-gradient(180deg, #000, #101010, #101010);
+  background: #6ebaae;
   display: -ms-grid;
   display: grid;
       grid-template-areas: "mapa" "descricao" "copyright";
@@ -890,7 +890,7 @@ li {
     margin-bottom: 0px;
     width: 100%;
     height: 10%;
-    max-width: 250px;
+    max-width: 350px;
     font-size: 1.3em;
     background: red;
     border-radius: 5px;
@@ -916,8 +916,8 @@ li {
 }
 
 @media (max-width: 500px) {
-  #banner {
-    background: url(../img/banner/hambuzinho.jpg) round;
-  }
+  /*  #banner{
+        background: url(../img/banner/hambuzinho.jpg) round;
+    } */
 }
 /*# sourceMappingURL=style.css.map */
